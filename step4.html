@@ -3,32 +3,37 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Mon site Web</title>
+		<link rel="stylesheet" type="text/css" href="styles/step4.css"/>
 		<link rel="icon" type="image/png" href="img/favicon.png"/>
 	</head>
 	<body>
-		<header>
-			<h1>Mon site Web</h1>
+		<header id="main_header">
+			<div class="main_width">
+				<h1>Mon site Web</h1>
+			</div>
 		</header>
 
-		<nav>
-			<a href="index.html">Etape 1</a>
-			<a href="step2.html">Etape 2</a>
-			<a href="step3.html">Etape 3</a>
-			<a href="step4.html">Etape 4</a>
+		<nav id="main_nav">
+			<div class="main_width">
+				<a href="index.html">Etape 1</a>
+				<a href="step2.html">Etape 2</a>
+				<a href="step3.html">Etape 3</a>
+				<a href="step4.html">Etape 4</a>
+			</div>
 		</nav>
 
-		<section>
+		<section id="presentation_section">
 			<h2>Presentation</h2>
 
 			<article>
 				<img src="img/le_chat.gif">
-				<p>
+				<p class="right">
 					Chargé de la réalisation d'un site internet et des fonctionnalités qui vont avec, le développeur web est un programmeur multi-tâches et multi-languages, très flexible (agile), afin de s'adapter aux nombreux besoins d'un site internet. Véritable enjeu de ces dernières années, les développeurs sont très recherchés sur le marché de l'emploi. C'est sur les épaules du développeur web que repose la responsabilité du bon fonctionnement d'un site internet (nouveau service, maintenance du site, rapidité...).
 				</p>
 			</article>
 
 			<article>
-				<p>
+				<p class="left">
 					Le developpement web est une bonne entree dans le monde de l'informatique.<br/>
 					Les langages webs sont des langages de scripts (qui sont donc lus par des programmes), mais certains de ces langages sont tout de meme tres proches de la programmation a proprement dit.<br/>
 					De maniere generale, les langages webs sont assez peu performants dans certains cas. Par exemple pour faire des applications complexes sur telephone, ou encore pour developepr des jeux video.<br/>
@@ -38,10 +43,10 @@
 			</article>
 		</section>
 
-		<section>
+		<section id="career_section">
 			<h2>Tous les chemins menent a Rome</h2>
 
-			<article>
+			<article class="left">
 				<h3>Manon</h3>
 				<p>
 					« Réussir sa vie est avant tout une question de volonté »
@@ -67,7 +72,7 @@
 				</p>
 			</article>
 
-			<article>
+			<article class="right">
 				<h3>Paul</h3>
 				<p>
 					Les jeux video et la musique sont ma plus grande passion.
@@ -90,8 +95,10 @@
 			</article>
 		</section>
 
-		<footer>
-			<p>Bon courage !</p>
+		<footer id="main_footer">
+			<div class="main_width">
+				<p>Bon courage :) !</p>
+			</div>
 		</footer>
 		<script type="text/javascript" src="scripts/index.js"></script>
 	</body>
