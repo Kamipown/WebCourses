@@ -1,0 +1,17 @@
+#main_header { display: block; width: 800px; height: 128px; margin: auto;}
+	#main_header h1 { display: block; height: 128px;}
+
+#main_nav { display: block; width: 800px; height: 64px; margin: auto;}
+	#main_nav a { display: inline-block; height: 64px;}
+
+#presentation_section { display: block; width: 800px; margin: auto;}
+	#presentation_section h2 { display: block; height: 64px; margin: auto;}
+	#presentation_section article { display: block;}
+		#presentation_section article img { display: inline-block; width: 30%;}
+		#presentation_section article p { display: inline-block; width: 60%;}
+
+#career_section { display: block; width: 800px; margin: auto;}
+	#career_section h2 { display: block; height: 64px; margin: auto;}
+	#career_section article { display: inline-block; width: 45%;}
+
+#main_footer { display: block; width: 800px; margin: auto;}

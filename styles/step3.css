@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+html { }
+body { margin: 0px; font-size: 0px; font-family: "Roboto"; background-color: #fafafa; color: #333;}
+
+h1, h2, h3 { margin: 0px; font-family: "Oswald";}
+p { margin: 0px;}
+
+.main_width { width: 800px; margin: auto;}
+
+#main_header { display: block; height: 128px; margin: auto; border-bottom: 1px solid #ccc; background-color: #eee;}
+	#main_header h1 { display: block; height: 128px; line-height: 128px; font-size: 42px; font-family: "Oswald";}
+
+#main_nav { display: block; height: 64px; margin: auto; border-bottom: 1px solid #ccc; background-color: #e5e5e5;}
+	#main_nav a { display: inline-block; height: 64px; line-height: 64px; padding: 0px 16px; border-left: 1px solid #ccc; font-size: 18px; text-decoration: none; color: #37f;}
+	#main_nav a:last-child { border-right: 1px solid #ccc;}
+
+#presentation_section { display: block; width: 800px; margin: auto; padding: 20px 0px; border-bottom: 1px solid #ccc;}
+	#presentation_section h2 { display: block; height: 64px; line-height: 64px; margin: auto; font-size: 32px; font-size: 32px;}
+	#presentation_section article { display: block; margin-top: 20px;}
+		#presentation_section article img { display: inline-block; vertical-align: top; width: 30%;}
+		#presentation_section article p { display: inline-block; vertical-align: top; box-sizing: border-box; width: 70%; font-size: 16px;}
+		#presentation_section article p.right { padding-left: 20px;}
+		#presentation_section article p.left { padding-right: 20px;}
+
+#career_section { display: block; width: 800px; margin: auto; padding: 20px 0px;}
+	#career_section h2 { display: block; height: 64px; line-height: 64px; margin: auto; font-size: 32px; font-size: 32px;}
+	#career_section article { display: inline-block; box-sizing: border-box; width: 50%; padding-top: 20px;}
+	#career_section article.left { padding-right: 20px;}
+	#career_section article.right { padding-left: 20px;}
+		#career_section article h3 { height: 64px; line-height: 64px; border-bottom: 2px dashed #ddd; font-size: 24px;}
+		#career_section article p { padding: 20px 0px; font-size: 16px;}
+
+#main_footer { display: block; height: 128px; margin: auto; background-color: #333;}
+	#main_footer p { height: 128px; line-height: 128px; font-size: 16px; color: #fff;}
